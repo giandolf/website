@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/style3.css", "css/style3.css"]
+  custom_css = ["css/style2.css", "css/style2.css"]
 
   # Meta
   author = ""
@@ -205,8 +205,8 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Francesco Longo"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      position = "Co-Founder, Research & Development"
+      description = "Big fan of science fiction and fantasy, his dream is to use a bunch of technologies and some good ideas to let everything around us work like magic."
       img = "person3.jpg"
       alt = "Person3"
 #       social = [
