@@ -40,7 +40,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Reinventing the wheel."
-    subtitle = 'Our focus is to allow you to reshape the world around us in order to make it smarter, open, accessible, sustainable and secure. We want to give you the possibility to reinvent everething in a better way; Everthing ... starting from the wheel ;)'
+    subtitle = 'Our focus lies in enabling people to reshape the world around them, to make it smarter, more open, accessible, sustainable and secure. We want to give customers the facilities to reinterpret any-thing in a better way ... until we get to the wheel ;)'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
