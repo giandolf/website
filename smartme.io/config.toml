@@ -218,7 +218,7 @@ theme = "hugo-elate-theme"
       [[params.about.item]]
         name = "Giovanni Merlino"
         position = "Co-Founder, R&D, SW Architect"
-        description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him think he is in control."
+        description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him believe he is in control."
         img = "person3.jpg"
         alt = "Person3"
 #         social = [
