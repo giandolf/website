@@ -205,7 +205,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Francesco Longo"
-      position = "Co-Founder, Research & Development, SW Architect"
+      position = "Co-Founder, R&D, SW Architect"
       description = "Big fan of science fiction and fantasy, his dream is to use a bunch of technologies and some good ideas to let everything around us work like magic."
       img = "person3.jpg"
       alt = "Person3"
@@ -217,7 +217,7 @@ theme = "hugo-elate-theme"
 
       [[params.about.item]]
         name = "Giovanni Merlino"
-        position = "Co-Founder, R&D, SW Engineer"
+        position = "Co-Founder, R&D, SW Architect"
         description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him think he is in control."
         img = "person3.jpg"
         alt = "Person3"
