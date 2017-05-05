@@ -181,7 +181,7 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Antonio Puliafito"
-      position = "Co-Founder, Dissemination"
+      position = "Co-Founder, R&D, Dissemination"
       description = "Full professor at the University of Messina, Italy. His interests include distributed systems, networking, IoT, and Cloud computing. "
       img = "photo_puliafito.jpg"
       alt = "Antonio"
@@ -206,7 +206,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Francesco Longo"
       position = "Co-Founder, R&D, SW Architect"
-      description = "Big fan of scifi and fantasy, his dream is to use a bunch of technologies and some good ideas to let everything work like magic."
+      description = "Scifi and fantasy fan, his dream is to use a bunch of technologies and some good ideas to let anything around us work like magic."
       img = "photo_longo.jpg"
       alt = "Francesco"
 #       social = [
@@ -230,7 +230,7 @@ theme = "hugo-elate-theme"
         [[params.about.item]]
           name = "Salvatore Distefano"
           position = "Co-Founder, R&D"
-          description = "I like to do crazy things randomly mixing imagination, technologies, and a bit of science: let's hope it does not explode!"
+          description = "He likes to do crazy things randomly mixing imagination, technologies, and a bit of science: let's hope it does not explode!"
           img = "photo_distefano.jpg"
           alt = "Salvatore"
 #           social = [
