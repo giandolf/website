@@ -9,9 +9,9 @@ theme = "hugo-elate-theme"
   custom_css = ["css/style2.css", "css/style2.css"]
 
   # Meta
-  author = ""
-  description = ""
-  email = ""
+  author = "Francesco Longo"
+  description = "Home page of SmartMe.IO s.r.l."
+  email = "info@smartme.io"
   # Navigation
   [params.navigation]
     brand = "SmartMe.IO"
@@ -181,10 +181,10 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Antonio Puliafito"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
+      position = "Co-Founder, Dissemination"
+      description = "Full professor at the University of Messina, Italy. His interests include distributed systems, networking, IoT, and Cloud computing. "
+      img = "photo_puliafito.jpg"
+      alt = "Antonio"
 #       social = [
 #         ["icon-twitter", "#"],
 #         ["icon-facebook", "#"],
@@ -193,10 +193,10 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Dario Bruneo"
-      position = "Web Developer"
+      position = "Co-Founder, R&D"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      img = "photo_bruneo.jpg"
+      alt = "Dario"
 #       social = [
 #         ["icon-twitter", "#"],
 #         ["icon-facebook", "#"],
@@ -206,9 +206,9 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Francesco Longo"
       position = "Co-Founder, R&D, SW Architect"
-      description = "Big fan of science fiction and fantasy, his dream is to use a bunch of technologies and some good ideas to let everything around us work like magic."
-      img = "person3.jpg"
-      alt = "Person3"
+      description = "Big fan of scifi and fantasy, his dream is to use a bunch of technologies and some good ideas to let everything work like magic."
+      img = "photo_longo.jpg"
+      alt = "Francesco"
 #       social = [
 #         ["icon-twitter", "#"],
 #         ["icon-facebook", "#"],
@@ -219,8 +219,8 @@ theme = "hugo-elate-theme"
         name = "Giovanni Merlino"
         position = "Co-Founder, R&D, SW Architect"
         description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him believe he is in control."
-        img = "person3.jpg"
-        alt = "Person3"
+        img = "photo_merlino.jpg"
+        alt = "Giovanni"
 #         social = [
 #           ["icon-twitter", "#"],
 #           ["icon-facebook", "#"],
@@ -229,10 +229,10 @@ theme = "hugo-elate-theme"
 
         [[params.about.item]]
           name = "Salvatore Distefano"
-          position = "Web Designer"
-          description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-          img = "person3.jpg"
-          alt = "Person3"
+          position = "Co-Founder, R&D"
+          description = "I like to do crazy things randomly mixing imagination, technologies, and a bit of science: let's hope it does not explode!"
+          img = "photo_distefano.jpg"
+          alt = "Salvatore"
 #           social = [
 #             ["icon-twitter", "#"],
 #             ["icon-facebook", "#"],
@@ -241,10 +241,10 @@ theme = "hugo-elate-theme"
 
           [[params.about.item]]
             name = "Angelo Zaia"
-            position = "Web Designer"
+            position = "Co-Founder, R&D, Business manager"
             description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-            img = "person3.jpg"
-            alt = "Person3"
+            img = "photo_zaia.jpg"
+            alt = "Angelo"
 #             social = [
 #               ["icon-twitter", "#"],
 #               ["icon-facebook", "#"],
@@ -295,14 +295,14 @@ theme = "hugo-elate-theme"
     enable = true
     #map = true
     title = "Get in touch"
-    description = "Please, contact us if you need any further information!"
+    description = "Please, do not esitate to contact us if you need any further information!"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Contrada di Dio, 1<br> Dipartimento di Ingegneria <br> 98166, Messina - Italy"],
-        ["icon-phone", "(39) 397-7337"],
+        ["icon-home", "Dipartimento di Ingegneria <br>Contrada di Dio, 1 - S.Agata  <br> 98166, Messina - Italy"],
+        ["icon-phone", "(+39) 090-397-7337"],
         ["icon-envelope", "info@smartme.io"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-globe", '<a href="http://smartme.io" target="_blank">smartme.io</a>']
       ]
 
     name = "Name"
