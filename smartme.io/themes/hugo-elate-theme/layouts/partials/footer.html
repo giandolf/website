@@ -4,6 +4,7 @@
 			<div class="">
 				<div class="col-md-12 text-center">
 					<p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
+					<p>{{ template "_internal/google_analytics_async.html" . }}</p>
 					
 				</div>
 			</div>

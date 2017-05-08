@@ -3,6 +3,7 @@ baseurl = "localhost:1313"
 title = "SmartMe.IO"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+googleAnalytics = "UA-98639930-1"
 
 [params]
 
@@ -182,7 +183,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Antonio Puliafito"
       position = "Co-Founder, R&D, Dissemination"
-      description = "Full professor at the University of Messina, Italy. His interests include distributed systems, networking, IoT, and Cloud computing. "
+      description = "Full professor at the University of Messina, Italy. Shaping the future for a better world of connected people and smart objects."
       img = "photo_puliafito.jpg"
       alt = "Antonio"
 #       social = [
@@ -194,7 +195,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Dario Bruneo"
       position = "Co-Founder, R&D"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Embedded system enthusiast, he likes to understand every single bit to put intelligence into everyday life objects."
       img = "photo_bruneo.jpg"
       alt = "Dario"
 #       social = [
@@ -312,6 +313,6 @@ theme = "hugo-elate-theme"
     button = "Send message"
 
   # Footer section
-#   [params.footer]
-#     enable = true
-#     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+  [params.footer]
+    enable = true
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
