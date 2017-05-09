@@ -254,42 +254,42 @@ googleAnalytics = "UA-98639930-1"
 
 
 #   # Counters section
-#   [params.counters]
-#     enable = true
-#     title = "Stats"
-#     background = "full_image_1.jpg"
-# 
-#     [[params.counters.item]]
-#       description = "Finished projects"
-#       icon = "icon-briefcase"
-#       from = 0
-#       to = 89
-#       interval = 50
-#       speed = 5000
-# 
-#     [[params.counters.item]]
-#       description = "Lines of code"
-#       icon = "icon-code"
-#       from = 0
-#       to = 2343409
-#       interval = 50
-#       speed = 5000
-# 
-#     [[params.counters.item]]
-#       description = "Cups of coffee"
-#       icon = "icon-cup"
-#       from = 0
-#       to = 1302
-#       interval = 50
-#       speed = 5000
-# 
-#     [[params.counters.item]]
-#       description = "Happy clients"
-#       icon = "icon-people"
-#       from = 0
-#       to = 52
-#       interval = 50
-#       speed = 5000
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Nodes"
+      icon = "icon-location-pin"
+      from = 0
+      to = 25
+      interval = 5
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Sensors"
+      icon = "icon-chart"
+      from = 0
+      to = 150
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Records"
+      icon = "icon-cloud-upload"
+      from = 0
+      to = 7398150
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Records/day"
+      icon = "icon-speedometer"
+      from = 0
+      to = 21600
+      interval = 50
+      speed = 5000
 
   # Contact section
   [params.contact]
