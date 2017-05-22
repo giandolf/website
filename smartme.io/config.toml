@@ -41,7 +41,7 @@ googleAnalytics = "UA-98639930-1"
   # Hero section
   [params.hero]
     title = "Reinventing the wheel."
-    subtitle = 'Our focus lies in enabling people to reshape the world around them, to make it smarter, more open, accessible, sustainable and secure. We want to give customers the facilities to reinterpret<br>any-<i>thing</i> in a better way ... until we get to the wheel ;)'
+    subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;)'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
