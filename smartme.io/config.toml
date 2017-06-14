@@ -17,10 +17,11 @@ googleAnalytics = "UA-98639930-1"
   [params.navigation]
     brand = "SmartMe.IO"
     home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
+    #work = "Work"
+    #testimonials = "Testimonials"
     services = "Services"
     about = "About"
+    counters = "Stats"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -42,10 +43,36 @@ googleAnalytics = "UA-98639930-1"
   [params.hero]
     title = "Reinventing the wheel."
     subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;)'
+    
+    [params.services]
+    enable = true
+    title = "Services"
+    #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Cloud & OpenStack"
+      description = "We offer technical consulting and development on Cloud."
+      icon = "icon-cloud"
+
+    [[params.services.item]]
+      title = "Internet of Things"
+      description = "We offer technical consulting and development on the Internet of Things."
+      icon = "icon-map-marker"
+    [[params.services.item]]
+      title = "Embedded systems"
+      description = "We offer technical consulting and development on embedded systems."
+      icon = "icon-gears"
+
+      [[params.services.item]]
+      title = "OpenSource"
+      description = "We offer technical consulting and development on OpenSource technologies."
+      icon = "icon-linux"
+
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+  title = "Products"
 
   [[params.intro.item]]
     title = "Stack4Things"
@@ -70,7 +97,7 @@ googleAnalytics = "UA-98639930-1"
     button = "More information"
     icon = "icon-bulb"
     #img = "img_8.jpg"
-    
+#     
 
 #   [params.intro.video]
 #     enable = true
@@ -150,29 +177,6 @@ googleAnalytics = "UA-98639930-1"
 # 
 # 
 #   # Services section
-#   [params.services]
-#     enable = true
-#     title = "Services"
-#     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-# 
-#     [[params.services.item]]
-#       title = "Brand &amp; Strategy"
-#       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-#       icon = "icon-anchor"
-# 
-#     [[params.services.item]]
-#       title = "Web &amp; Interface"
-#       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-#       icon = "icon-layers2"
-#     [[params.services.item]]
-#       title = "Photo &amp; Video"
-#       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-#       icon = "icon-video2"
-# 
-#       [[params.services.item]]
-#       title = "CMS &amp; eCommerce"
-#       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-#       icon = "icon-monitor"
 
   # About section
   [params.about]
