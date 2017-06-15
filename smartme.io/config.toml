@@ -41,32 +41,8 @@ googleAnalytics = "UA-98639930-1"
 
   # Hero section
   [params.hero]
-    title = "Reinventing the wheel."
-    subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;)'
-    
-    [params.services]
-    enable = true
-    title = "Services"
-    #description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.services.item]]
-      title = "Cloud & OpenStack"
-      description = "We offer technical consulting and development on Cloud."
-      icon = "icon-cloud"
-
-    [[params.services.item]]
-      title = "Internet of Things"
-      description = "We offer technical consulting and development on the Internet of Things."
-      icon = "icon-map-marker"
-    [[params.services.item]]
-      title = "Embedded systems"
-      description = "We offer technical consulting and development on embedded systems."
-      icon = "icon-gears"
-
-      [[params.services.item]]
-      title = "OpenSource"
-      description = "We offer technical consulting and development on OpenSource technologies."
-      icon = "icon-linux"
+    title = "Reinventing the wheel"
+    subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;) <br> <b>Through IoT and Cloud technologies.</b>'
 
 
   # Intro section
@@ -89,7 +65,7 @@ googleAnalytics = "UA-98639930-1"
     button = "More information"
     icon = "icon-rocket"
     #img = "img_10.jpg"
-    
+
   [[params.intro.item]]
     title = "MDSLab"
     description = "SmartMe.IO is an academic spin-off of the University of Messina"
@@ -97,7 +73,7 @@ googleAnalytics = "UA-98639930-1"
     button = "More information"
     icon = "icon-bulb"
     #img = "img_8.jpg"
-#     
+
 
 #   [params.intro.video]
 #     enable = true
@@ -112,71 +88,98 @@ googleAnalytics = "UA-98639930-1"
 #     title = "Work"
 #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 #     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-# 
+#
 #     [[params.work.row]]
 #       img = "work_1.jpg"
 #       alt = "Image2"
 #       title = "Project 1"
 #       subtitle = "Branding"
-# 
+#
 #     [[params.work.row]]
 #       img = "work_2.jpg"
 #       alt = "Image2"
 #       title = "Project 2"
 #       subtitle = "Design"
-# 
+#
 #     [[params.work.row]]
 #       img = "work_3.jpg"
 #       alt = "Image3"
 #       title = "Project 3"
 #       subtitle = "Design"
-# 
+#
 #     [[params.work.row]]
 #       img = "work_4.jpg"
 #       alt = "Image4"
 #       title = "Project 4"
 #       subtitle = "Design"
-# 
+#
 #     [[params.work.row]]
 #       img = "work_5.jpg"
 #       alt = "Image5"
 #       title = "Project 5"
 #       subtitle = "Design"
-# 
+#
 #     [[params.work.row]]
 #       img = "work_6.jpg"
 #       alt = "Image6"
 #       title = "Project 6"
 #       subtitle = "Design"
-# 
+#
 #   # Testimonials section
 #   [params.testimonials]
 #     enable = true
 #     title = "Testimonials"
 #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-# 
+#
 #     [[params.testimonials.item]]
 #       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
 #       person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 #       img = "person1.jpg"
 #       alt = "Person1"
-# 
+#
 #     [[params.testimonials.item]]
 #       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
 #       person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 #       img = "person2.jpg"
 #       alt = "Person2"
-# 
+#
 #     [[params.testimonials.item]]
 #       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
 #       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
 #       img = "person3.jpg"
 #       alt = "Person3"
-# 
-# 
-# 
-# 
-#   # Services section
+#
+#
+#
+#
+
+   # Services section
+
+   [params.services]
+     enable = true
+     title = "Services"
+     description = "Combining open and low cost IoT technologies with strong, scalable and robust Open Stack clouds we offer best in class solutions for Metering, Devices and Fleet Management, Monitoring, etc. "
+
+     [[params.services.item]]
+       title = "Cloud & OpenStack"
+       description = "Based on our long-time expertise managing OpenStack-based large projects we offer Design, Consulting, Development, Setup and Deployment services for private and public Clouds."
+       icon = "icon-cloud"
+
+     [[params.services.item]]
+       title = "Internet of Things"
+       description = "We first developed Stack4Things, an IoT module that brings connected Devices to the elastic power and openess of OpenStack solutions."
+       icon = "icon-map-marker"
+
+     [[params.services.item]]
+       title = "Embedded systems"
+       description = ""
+       icon = "icon-gears"
+
+       [[params.services.item]]
+       title = "OpenSource"
+       description = "We offer technical consulting and development on OpenSource technologies."
+       icon = "icon-linux"
+
 
   # About section
   [params.about]
@@ -186,7 +189,7 @@ googleAnalytics = "UA-98639930-1"
 
     [[params.about.item]]
       name = "Antonio Puliafito"
-      position = "Co-Founder, R&D, Dissemination"
+      position = "R&D, Dissemination"
       description = "Full professor at the University of Messina, Italy. Shaping the future for a better world of connected people and smart objects."
       img = "photo_puliafito.jpg"
       alt = "Antonio"
@@ -198,7 +201,7 @@ googleAnalytics = "UA-98639930-1"
 
     [[params.about.item]]
       name = "Dario Bruneo"
-      position = "Co-Founder, R&D"
+      position = "R&D"
       description = "Embedded system enthusiast, he likes to understand every single bit to put intelligence into everyday life objects."
       img = "photo_bruneo.jpg"
       alt = "Dario"
@@ -210,7 +213,7 @@ googleAnalytics = "UA-98639930-1"
 
     [[params.about.item]]
       name = "Francesco Longo"
-      position = "Co-Founder, R&D, SW Architect"
+      position = "R&D, SW Architect"
       description = "Scifi and fantasy fan, his dream is to use a bunch of technologies and some good ideas to let anything around us work like magic."
       img = "photo_longo.jpg"
       alt = "Francesco"
@@ -222,7 +225,7 @@ googleAnalytics = "UA-98639930-1"
 
       [[params.about.item]]
         name = "Giovanni Merlino"
-        position = "Co-Founder, R&D, SW Architect"
+        position = "R&D, SW Architect"
         description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him believe he is in control."
         img = "photo_merlino.jpg"
         alt = "Giovanni"
@@ -234,7 +237,7 @@ googleAnalytics = "UA-98639930-1"
 
         [[params.about.item]]
           name = "Salvatore Distefano"
-          position = "Co-Founder, R&D"
+          position = "R&D"
           description = "He likes to do crazy things randomly mixing imagination, technologies, and a bit of science: let's hope it does not explode!"
           img = "photo_distefano.jpg"
           alt = "Salvatore"
@@ -246,8 +249,8 @@ googleAnalytics = "UA-98639930-1"
 
           [[params.about.item]]
             name = "Angelo Zaia"
-            position = "Co-Founder, R&D, Business manager"
-            description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+            position = "R&D, Business Developer"
+            description = "Courious, Maker and Engineer. He is interested on how IoT and Cloud technolgies can improve our life on uninvestigated aspects."
             img = "photo_zaia.jpg"
             alt = "Angelo"
 #             social = [
