@@ -250,7 +250,7 @@ googleAnalytics = "UA-98639930-1"
           [[params.about.item]]
             name = "Angelo Zaia"
             position = "R&D, Business Developer"
-            description = "Courious, Maker and Engineer. He is interested on how IoT and Cloud technolgies can improve our life on uninvestigated aspects."
+            description = "Courious, Maker and Engineer. He is interested on how IoT and Cloud technologies can improve our life on uninvestigated aspects."
             img = "photo_zaia.jpg"
             alt = "Angelo"
 #             social = [
