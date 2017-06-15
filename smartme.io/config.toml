@@ -41,9 +41,8 @@ googleAnalytics = "UA-98639930-1"
 
   # Hero section
   [params.hero]
-    title = "Reinventing the wheel"
-    #<img src="" alt="SmartMe.IO logo" height="400" width="400"> <p>
-    subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable, and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;) <br> <b>Through IoT and Cloud technologies.</b>'
+    title = ""
+    subtitle = '<img src="images/smartmelogo.png" alt="SmartMe.IO logo" height="264" width="284"> <br> We enable people to reshape the world, making it smarter, more open, accessible, sustainable, and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;) <br> <b>Through IoT and Cloud technologies.</b>'
 
 
   # Intro section
@@ -159,7 +158,7 @@ googleAnalytics = "UA-98639930-1"
    [params.services]
      enable = true
      title = "Services"
-     description = "Combining open and low cost IoT technologies with strong, scalable, and robust Open Stack clouds, we offer best in class solutions for Metering, Devices and Fleet Management, Monitoring, Crowdsensing, and other aspects of Smart Environments."
+     description = "Combining open and low cost IoT technologies with strong, scalable, and robust OpenStack clouds, we offer best in class solutions for Metering, Devices and Fleet Management, Monitoring, Crowdsensing, and other aspects of Smart Environments."
 
      [[params.services.item]]
        title = "Cloud & OpenStack"
@@ -173,12 +172,12 @@ googleAnalytics = "UA-98639930-1"
 
      [[params.services.item]]
        title = "Embedded systems"
-       description = "Our solutions can run on top of the best off-the-shelf embedded systems from single board computers, e.g., Raspberry PI, Arduino YUN, to microcontroller-based systems, e.g., STM32 Nucleo boards."
+       description = "We are able to provide full stack solutions from Hardware Design to Software Firmware and Applications Design and Development. At the same time our solutions can run on top of the best off-the-shelf embedded systems."
        icon = "icon-gears"
 
        [[params.services.item]]
        title = "Open Source and Open Hardware"
-       description = "We offer technical consulting and development on Open Source and Open Hardware technologies such as Linux, OpenWRT, Android, Arduino."
+       description = "We offer technical Consulting and Development on Open Source and Open Hardware technologies such as Linux, Android, Arduino and OpenWRT."
        icon = "icon-linux"
 
 
