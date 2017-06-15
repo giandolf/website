@@ -22,7 +22,7 @@ googleAnalytics = "UA-98639930-1"
     services = "Services"
     about = "About"
     counters = "Stats"
-    contact = "Contact"
+    contact = "Contact us"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -42,7 +42,8 @@ googleAnalytics = "UA-98639930-1"
   # Hero section
   [params.hero]
     title = "Reinventing the wheel"
-    subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;) <br> <b>Through IoT and Cloud technologies.</b>'
+    #<img src="" alt="SmartMe.IO logo" height="400" width="400"> <p>
+    subtitle = 'We enable people to reshape the world, making it smarter, more open, accessible, sustainable, and secure. We help to reinterpret any-thing in a better way... until we get to the wheel ;) <br> <b>Through IoT and Cloud technologies.</b>'
 
 
   # Intro section
@@ -158,26 +159,26 @@ googleAnalytics = "UA-98639930-1"
    [params.services]
      enable = true
      title = "Services"
-     description = "Combining open and low cost IoT technologies with strong, scalable and robust Open Stack clouds we offer best in class solutions for Metering, Devices and Fleet Management, Monitoring, etc. "
+     description = "Combining open and low cost IoT technologies with strong, scalable, and robust Open Stack clouds, we offer best in class solutions for Metering, Devices and Fleet Management, Monitoring, Crowdsensing, and other aspects of Smart Environments."
 
      [[params.services.item]]
        title = "Cloud & OpenStack"
-       description = "Based on our long-time expertise managing OpenStack-based large projects we offer Design, Consulting, Development, Setup and Deployment services for private and public Clouds."
+       description = "Based on our long-time expertise managing OpenStack-based large projects, we offer Design, Consulting, Development, Setup, and Deployment services for private and public clouds."
        icon = "icon-cloud"
 
      [[params.services.item]]
        title = "Internet of Things"
-       description = "We first developed Stack4Things, an IoT module that brings connected Devices to the elastic power and openess of OpenStack solutions."
+       description = "We are the first developers and mantainers of Stack4Things, an OpenStack-based IoT framework that brings to connected Devices the elastic power and openess of OpenStack solutions."
        icon = "icon-map-marker"
 
      [[params.services.item]]
        title = "Embedded systems"
-       description = ""
+       description = "Our solutions can run on top of the best off-the-shelf embedded systems from single board computers, e.g., Raspberry PI, Arduino YUN, to microcontroller-based systems, e.g., STM32 Nucleo boards."
        icon = "icon-gears"
 
        [[params.services.item]]
-       title = "OpenSource"
-       description = "We offer technical consulting and development on OpenSource technologies."
+       title = "Open Source and Open Hardware"
+       description = "We offer technical consulting and development on Open Source and Open Hardware technologies such as Linux, OpenWRT, Android, Arduino."
        icon = "icon-linux"
 
 
