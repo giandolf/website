@@ -52,7 +52,7 @@ googleAnalytics = "UA-98639930-1"
 
   [[params.intro.item]]
     title = "Stack4Things"
-    description = "Stack4Things is a IoT resource management framework for OpenStack Clouds"
+    description = "Stack4Things is an IoT resource management framework for OpenStack Clouds"
     url = "http://stack4things.unime.it"
     button = "More information"
     icon = "icon-wrench"
@@ -68,7 +68,7 @@ googleAnalytics = "UA-98639930-1"
 
   [[params.intro.item]]
     title = "MDSLab"
-    description = "SmartMe.IO is an academic spin-off of the University of Messina"
+    description = "SmartMe.IO is an academic spin-off from the University of Messina"
     url = "http://mdslab.unime.it"
     button = "More information"
     icon = "icon-bulb"
@@ -158,11 +158,11 @@ googleAnalytics = "UA-98639930-1"
    [params.services]
      enable = true
      title = "Services"
-     description = "Combining open and low cost IoT technologies with strong, scalable, and robust OpenStack clouds, we offer best in class solutions for Metering, Devices and Fleet Management, Monitoring, Crowdsensing, and other aspects of Smart Environments."
+     description = "Combining open and low-cost IoT technologies with industrial-strength, scalable, and robust OpenStack clouds, we provide best-in-class solutions for Metering, Devices and Fleet Management, Monitoring, Crowdsensing, and other aspects of Smart Environments."
 
      [[params.services.item]]
        title = "Cloud & OpenStack"
-       description = "Based on our long-time expertise managing OpenStack-based large projects, we offer Design, Consulting, Development, Setup, and Deployment services for private and public clouds."
+       description = "Based on our long-standing experience managing OpenStack-based large projects, we provide Design, Consulting, Development, Setup, and Deployment services for private and hybrid clouds."
        icon = "icon-cloud"
 
      [[params.services.item]]
@@ -172,12 +172,12 @@ googleAnalytics = "UA-98639930-1"
 
      [[params.services.item]]
        title = "Embedded systems"
-       description = "We are able to provide full stack solutions from Hardware Design to Software Firmware and Applications Design and Development. At the same time our solutions can run on top of the best off-the-shelf embedded systems."
+       description = "We are able to provide full stack solutions from Hardware Design to Software, Firmware and Application Design and Development. Our solutions can run on top of the best off-the-shelf embedded systems on the market as well."
        icon = "icon-gears"
 
        [[params.services.item]]
        title = "Open Source and Open Hardware"
-       description = "We offer technical Consulting and Development on Open Source and Open Hardware technologies such as Linux, Android, Arduino and OpenWRT."
+       description = "We provide Technical Consulting and Development services on Open Source and Open Hardware technologies such as Linux, Android, Arduino and OpenWRT."
        icon = "icon-linux"
 
 
@@ -185,7 +185,7 @@ googleAnalytics = "UA-98639930-1"
   [params.about]
     enable = true
     title = "About"
-    description = 'Far far away, in the middle of the Mediterranean Sea, between <a href="https://en.wikipedia.org/wiki/Scylla" target="_blank">Scylla</a> and <a href="https://en.wikipedia.org/wiki/Charybdis" target="_blank">Charybdis</a>, far from the Silicon Valley and Boston, far from London and Berlin, far from New York and Los Angeles, far from Tel Aviv and Singapore, far from Shanghai and Tokio, ... there lives the team.'
+    description = 'Far far away, in the middle of the Mediterranean Sea, between <a href="https://en.wikipedia.org/wiki/Scylla" target="_blank">Scylla</a> and <a href="https://en.wikipedia.org/wiki/Charybdis" target="_blank">Charybdis</a>, far from the Silicon Valley and Boston, far from London and Berlin, far from New York and Los Angeles, far from Tel Aviv and Singapore, far from Shanghai and Tokio... there lives the team.'
 
     [[params.about.item]]
       name = "Antonio Puliafito"
@@ -214,7 +214,7 @@ googleAnalytics = "UA-98639930-1"
     [[params.about.item]]
       name = "Francesco Longo"
       position = "R&D, SW Architect"
-      description = "Scifi and fantasy fan, his dream is to use a bunch of technologies and some good ideas to let anything around us work like magic."
+      description = "Sci-fi and fantasy fan, his dream is to use a bunch of technologies and some good ideas to let anything around us work like magic."
       img = "photo_longo.jpg"
       alt = "Francesco"
 #       social = [
@@ -250,7 +250,7 @@ googleAnalytics = "UA-98639930-1"
           [[params.about.item]]
             name = "Angelo Zaia"
             position = "R&D, Business Developer"
-            description = "Courious, Maker and Engineer. He is interested on how IoT and Cloud technologies can improve our life on uninvestigated aspects."
+            description = "Curious, Maker and Engineer. He is interested on how IoT and Cloud technologies can improve our life on uninvestigated aspects."
             img = "photo_zaia.jpg"
             alt = "Angelo"
 #             social = [
@@ -303,7 +303,7 @@ googleAnalytics = "UA-98639930-1"
     enable = true
     #map = true
     title = "Get in touch"
-    description = "Please, do not esitate to contact us if you need any further information!"
+    description = "Please, do not hesitate to contact us if you need any further information!"
 
     # Available icons: http://simplelineicons.com/
     details = [
