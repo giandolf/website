@@ -11,6 +11,22 @@
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
+				
+				<div id="fb-root"></div>
+            <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.10";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-page col-md-6 to-animate" data-href="https://www.facebook.com/smartme.io/" data-tabs="timeline" data-width="380" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/smartme.io/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/smartme.io/">SmartMe.IO</a></blockquote>
+            </div>
+				
 				<div class="col-md-6 to-animate">
 					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
 					<ul class="fh5co-contact-info">
