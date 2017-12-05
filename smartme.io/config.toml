@@ -18,7 +18,7 @@ googleAnalytics = "UA-98639930-1"
     brand = "SmartMe.IO"
     home = "Home"
     #work = "Work"
-    #testimonials = "Testimonials"
+    testimonials = "Testimonials"
     services = "Services"
     about = "About"
     counters = "Stats"
@@ -56,7 +56,7 @@ googleAnalytics = "UA-98639930-1"
     url = "http://stack4things.unime.it"
     button = "More information"
     icon = "icon-wrench"
-    #img = "img_7.jpg"
+    img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "#SmartME"
@@ -64,22 +64,29 @@ googleAnalytics = "UA-98639930-1"
     url = "http://smartme.unime.it"
     button = "More information"
     icon = "icon-rocket"
-    #img = "img_10.jpg"
+    img = "img_10.jpg"
 
-  [[params.intro.item]]
-    title = "MDSLab"
-    description = "SmartMe.IO is an academic spin-off from the University of Messina"
-    url = "http://mdslab.unime.it"
-    button = "More information"
-    icon = "icon-bulb"
-    #img = "img_8.jpg"
+  # [[params.intro.item]]
+  #   title = "MDSLab"
+  #   description = "the Mobile and Distributed Systems Laboratory (MDSLab) group conducts advanced ICT research studying parallel and distributed systems"
+  #   url = "http://mdslab.unime.it"
+  #   button = "More information"
+  #   icon = "icon-bulb"
+  #   img = "img_8.jpg"
 
+    [[params.intro.item]]
+      title = "SmartMeCam"
+      description = "SmartMeCam is a combined hardware/software solution that can recognize and analyze objects in a generic video stream, even in real time, and may also interface with an existing network of cams."
+      url = "#"
+      button = "More information"
+      icon = "icon-camrecorder"
+      img = "img_8.jpg"
 
-#   [params.intro.video]
-#     enable = true
-#     title = "Watch the video"
-#     icon = "icon-play2"
-#     url = "https://vimeo.com/channels/staffpicks/93951774"
+   [params.intro.video]
+     enable = true
+     title = "Messina like a SmartCity by CNET"
+     icon = "icon-play2"
+     url = "https://www.youtube.com/watch?v=09Jm3BzvFhM"
 
 
   # Work section
@@ -125,33 +132,49 @@ googleAnalytics = "UA-98639930-1"
 #       title = "Project 6"
 #       subtitle = "Design"
 #
-#   # Testimonials section
-#   [params.testimonials]
-#     enable = true
-#     title = "Testimonials"
-#     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-#
-#     [[params.testimonials.item]]
-#       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-#       person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-#       img = "person1.jpg"
-#       alt = "Person1"
-#
-#     [[params.testimonials.item]]
-#       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-#       person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-#       img = "person2.jpg"
-#       alt = "Person2"
-#
-#     [[params.testimonials.item]]
-#       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-#       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-#       img = "person3.jpg"
-#       alt = "Person3"
-#
-#
-#
-#
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "News where we are mentioned by online newspapers."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;La soluzione #SmartME fa assumere agli oggetti presenti nella città un ruolo attivo e li fa interagire tra loro, secondo il paradigma dell’IoT, Internet of Things.&rdquo;"
+      person = '<a href="https://www.legambiente.it/contenuti/comunicati/legambiente-premia-ecomondo-le-22-buone-pratiche-di-ecosistema-urbano-2017" target="_blank">Legambiente premia a Ecomondo le 22 Buone Pratiche di Ecosistema Urbano 2017</a> <span class="subtext">LEGAMBIENTE.it</span>'
+      #img = "person1.jpg"
+      #alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;la messinese SmartME.Io, che ha realizzato una piattaforma collegata a una rete di sensoristica diffusa installata nell’area urbana.&rdquo;"
+      person = '<a href="https://www.smau.it/milano17/news/poletti-la-manifattura-e-porta-dingresso-della-tecnologia-nella-societa/" target="_blank">POLETTI: “LA MANIFATTURA E’ PORTA D’INGRESSO DELLA TECNOLOGIA NELLA SOCIETA”</a> <span class="subtext">SMAU.it</span>'
+      #img = "person2.jpg"
+      #alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Un solo punto d'accesso per una piattaforma in grado di dare informazioni in tempo reale sui parametri ambientali, le buche del manto stradale, i posteggi liberi e non solo.&rdquo;"
+      person = '<a href="http://corriereinnovazione.corriere.it/cards/mezzogiorno-tech-prove-tecniche-messina-valley/non-solo-pizzo-machi.shtml" target="_blank">Mezzogiorno e tech, prove tecniche di Messina Valley</a> <span class="subtext">CORRIEREINNOVAZIONE.corriere.it</span>'
+      #img = "person3.jpg"
+      #alt = "Person3"
+
+    [[params.testimonials.item]]
+        quote = "&ldquo;Using readily available software and sensors, these ancient Italian towns are joining the ranks of the world's techiest cities.&rdquo;"
+        person = '<a href="https://www.cnet.com/videos/sicilys-smart-cities-show-its-getting-easier-to-get-smart/" target="_blank">Sicily s smart cities show it s getting easier to get smart</a> <span class="subtext">CNET.com</span>'
+        #img = "person1.jpg"
+        #alt = "Person1"
+
+    [[params.testimonials.item]]
+        quote = "&ldquo;Sicily is working to become home to some of the world's truly smart cities: A place that keeps its streets clean by alerting the sanitation department when public garbage bins are full.&rdquo;"
+        person = '<a href="https://www.cnet.com/news/sicily-smart-city-messina-catania-silicon-valley-to-shame/" target="_blank">These smart cities in Italy put Silicon Valley to shame”</a> <span class="subtext">CNET.com</span>'
+        #img = "person2.jpg"
+        #alt = "Person2"
+
+    [[params.testimonials.item]]
+          quote = "&ldquo;Parliamo anche di visione artificiale e dell'applicazione di una giovane start up, spin off dell'Università di Messina per contare le persone o rilevare comportamenti anomali in ambienti pubblici come spiega a 2024 Angelo Zaia, amministratore di SmartME.IO.&rdquo;"
+          person = '<a href="http://www.radio24.ilsole24ore.com/programma/2024/allevamenti-smart-visione-artificiale-120729-gSLAYXRlTC?refresh_ce=1" target="_blank">Allevamenti smart, visione artificiale e il PC industriale di Texa</a> <span class="subtext">RADIO24.ilsole24ore.com</span>'
+          #img = "person3.jpg"
+          #alt = "Person3"
+
+
 
    # Services section
 
@@ -183,7 +206,7 @@ googleAnalytics = "UA-98639930-1"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = 'Far far away, in the middle of the Mediterranean Sea, between <a href="https://en.wikipedia.org/wiki/Scylla" target="_blank">Scylla</a> and <a href="https://en.wikipedia.org/wiki/Charybdis" target="_blank">Charybdis</a>, far from the Silicon Valley and Boston, far from London and Berlin, far from New York and Los Angeles, far from Tel Aviv and Singapore, far from Shanghai and Tokio... there lives the team.'
 
@@ -301,7 +324,7 @@ googleAnalytics = "UA-98639930-1"
   # Contact section
   [params.contact]
     enable = true
-    #map = true
+    map = true
     title = "Get in touch"
     description = "Please, do not hesitate to contact us if you need any further information!"
 
