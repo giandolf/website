@@ -66,21 +66,21 @@ googleAnalytics = "UA-98639930-1"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
-  # [[params.intro.item]]
-  #   title = "MDSLab"
-  #   description = "the Mobile and Distributed Systems Laboratory (MDSLab) group conducts advanced ICT research studying parallel and distributed systems"
-  #   url = "http://mdslab.unime.it"
-  #   button = "More information"
-  #   icon = "icon-bulb"
-  #   img = "img_8.jpg"
+  [[params.intro.item]]
+    title = "MDSLab"
+    description = "Mobile and Distributed Systems Laboratory research parallel and distributed systems"
+    url = "http://mdslab.unime.it"
+    button = "More information"
+    icon = "icon-bulb"
+    img = "img_8.jpg"
 
-    [[params.intro.item]]
-      title = "SmartMeCam"
-      description = "SmartMeCam is a combined hardware/software solution that can recognize and analyze objects in a generic video stream, even in real time, and may also interface with an existing network of cams."
-      url = "#"
-      button = "More information"
-      icon = "icon-camrecorder"
-      img = "img_8.jpg"
+    # [[params.intro.item]]
+    #   title = "SmartMeCam"
+    #   description = "SmartMeCam is a combined hardware/software solution that can recognize and analyze objects in a generic video stream, even in real time, and may also interface with an existing network of cams."
+    #   url = "#"
+    #   button = "More information"
+    #   icon = "icon-camrecorder"
+    #   img = "img_8.jpg"
 
    [params.intro.video]
      enable = true
@@ -97,23 +97,23 @@ googleAnalytics = "UA-98639930-1"
     footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "NV_Inception_Program_Logo_NV_Inception_Logo_V_CMYK.jpg"
+      alt = "We are in Inception!"
+      title = "NVIDIA’s Inception program"
+      subtitle = "Partenership"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "22791973_778160385719309_503725633305433525_o.jpg"
+      alt = "Awarded at the SMAU 2017 with the prestigious Lamarck Award"
+      title = "Awarded at the SMAU 2017 with the prestigious Lamarck Award"
+      subtitle = "Event"
 
-#     [[params.work.row]]
-#       img = "work_3.jpg"
-#       alt = "Image3"
-#       title = "Project 3"
-#       subtitle = "Design"
-#
+    [[params.work.row]]
+      img = "IMG_1864.jpg"
+      alt = "SmartMeCam - Security Identification Monitoring"
+      title = "SmartMeCam - Security Identification Monitoring"
+      subtitle = "Project"
+
 #     [[params.work.row]]
 #       img = "work_4.jpg"
 #       alt = "Image4"
