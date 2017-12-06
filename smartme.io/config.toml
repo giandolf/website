@@ -321,10 +321,12 @@ googleAnalytics = "UA-98639930-1"
       interval = 50
       speed = 5000
 
+
+
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     title = "Get in touch"
     description = "Please, do not hesitate to contact us if you need any further information!"
 
@@ -345,4 +347,15 @@ googleAnalytics = "UA-98639930-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '<div style="font-size:small">
+    Registered Office: Via Osservatorio 1 - 98121 Messina, Italy<br>
+Operative Office: Dipartimento di Ingegneria, Contrada di Dio 1, S.Agata - 98166 Messina, Italy<br>
+Cap.Soc. €10.000 - Num.REA ME238676 - P.IVA/C.F. 03457040834<br>
+Copyright © 2017 SmartMe.IO S.r.l.</div>
+<br>
+<div style="font-size:xx-small">
+&copy; Elate Free HTML5. All Rights Reserved.
+Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a>
+Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>
+</div>
+'
