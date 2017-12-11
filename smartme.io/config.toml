@@ -114,24 +114,26 @@ googleAnalytics = "UA-98639930-1"
       title = "SmartMeCam - Security Identification Monitoring"
       subtitle = "Project"
 
-#     [[params.work.row]]
-#       img = "work_4.jpg"
-#       alt = "Image4"
-#       title = "Project 4"
-#       subtitle = "Design"
-#
-#     [[params.work.row]]
-#       img = "work_5.jpg"
-#       alt = "Image5"
-#       title = "Project 5"
-#       subtitle = "Design"
-#
-#     [[params.work.row]]
-#       img = "work_6.jpg"
-#       alt = "Image6"
-#       title = "Project 6"
-#       subtitle = "Design"
-#
+    [[params.work.row]]
+      img = "21248330_756509761217705_422701100140028306_o.jpg"
+      alt = "The SmartMe team has connected dozens of sensors around the city."
+      title = "The SmartMe team has connected dozens of sensors around the city."
+      subtitle = "Project"
+
+    [[params.work.row]]
+      img = "AAEAAQAAAAAAAAg0AAAAJGMwOWFjZDEzLTBjYzctNGEzNS1hMzUxLTZjNTZmZWE1MTBmZQ.png"
+      alt = "SmartMe.IO is now an official Microsoft BizSpark partner"
+      title = "SmartMe.IO is now an official Microsoft BizSpark partner"
+      subtitle = "Partenership"
+
+    [[params.work.row]]
+      img = "21731065_761851574016857_3524332929371082819_n.jpg"
+      alt = "SmartMe.IO has created an app that can locate the holes and give an assessment of the quality of the road surface."
+      title = "SmartMe.IO has created an app that can locate the holes and give an assessment of the quality of the road surface."
+      subtitle = "Project"
+
+    
+
   # Testimonials section
   [params.testimonials]
     enable = true
