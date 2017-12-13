@@ -132,46 +132,46 @@ googleAnalytics = "UA-98639930-1"
       title = "SmartMe.IO has created an app that can locate the holes and give an assessment of the quality of the road surface."
       subtitle = "Project"
 
-    
+
 
   # Testimonials section
   [params.testimonials]
     enable = true
     title = "Testimonials"
-    description = "News where we are mentioned by online newspapers."
+    description = "Here's what the newspapers say about us"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;La soluzione #SmartME fa assumere agli oggetti presenti nella città un ruolo attivo e li fa interagire tra loro, secondo il paradigma dell’IoT, Internet of Things.&rdquo;"
+      quote = "&ldquo;the #SmartME solution makes the objects present in the city take on an active role and makes them interact with each other, according to the IoT paradigm, Internet of Things&rdquo;"
       person = '<a href="https://www.legambiente.it/contenuti/comunicati/legambiente-premia-ecomondo-le-22-buone-pratiche-di-ecosistema-urbano-2017" target="_blank">Legambiente premia a Ecomondo le 22 Buone Pratiche di Ecosistema Urbano 2017</a> <span class="subtext">LEGAMBIENTE.it</span>'
       #img = "person1.jpg"
       #alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;la messinese SmartME.Io, che ha realizzato una piattaforma collegata a una rete di sensoristica diffusa installata nell’area urbana.&rdquo;"
+      quote = "&ldquo;the messinese SmartME.Io, which created a platform connected to a network of widespread sensors installed in the urban area&rdquo;"
       person = '<a href="https://www.smau.it/milano17/news/poletti-la-manifattura-e-porta-dingresso-della-tecnologia-nella-societa/" target="_blank">POLETTI: “LA MANIFATTURA E’ PORTA D’INGRESSO DELLA TECNOLOGIA NELLA SOCIETA”</a> <span class="subtext">SMAU.it</span>'
       #img = "person2.jpg"
       #alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Un solo punto d'accesso per una piattaforma in grado di dare informazioni in tempo reale sui parametri ambientali, le buche del manto stradale, i posteggi liberi e non solo.&rdquo;"
+      quote = "&ldquo;a single point of access for a platform able to give real-time information on environmental parameters, roadway pits, free parking spaces and more&rdquo;"
       person = '<a href="http://corriereinnovazione.corriere.it/cards/mezzogiorno-tech-prove-tecniche-messina-valley/non-solo-pizzo-machi.shtml" target="_blank">Mezzogiorno e tech, prove tecniche di Messina Valley</a> <span class="subtext">CORRIEREINNOVAZIONE.corriere.it</span>'
       #img = "person3.jpg"
       #alt = "Person3"
 
     [[params.testimonials.item]]
-        quote = "&ldquo;Using readily available software and sensors, these ancient Italian towns are joining the ranks of the world's techiest cities.&rdquo;"
-        person = '<a href="https://www.cnet.com/videos/sicilys-smart-cities-show-its-getting-easier-to-get-smart/" target="_blank">Sicily s smart cities show it s getting easier to get smart</a> <span class="subtext">CNET.com</span>'
-        #img = "person1.jpg"
-        #alt = "Person1"
-
-    [[params.testimonials.item]]
-        quote = "&ldquo;Sicily is working to become home to some of the world's truly smart cities: A place that keeps its streets clean by alerting the sanitation department when public garbage bins are full.&rdquo;"
+        quote = "&ldquo;Sicily is working to become home to some of the world's truly smart cities: A place that keeps its streets clean by alerting the sanitation department when public garbage bins are full&rdquo;"
         person = '<a href="https://www.cnet.com/news/sicily-smart-city-messina-catania-silicon-valley-to-shame/" target="_blank">These smart cities in Italy put Silicon Valley to shame”</a> <span class="subtext">CNET.com</span>'
         #img = "person2.jpg"
         #alt = "Person2"
 
+        [[params.testimonials.item]]
+            quote = "&ldquo;using readily available software and sensors, these ancient Italian towns are joining the ranks of the world's techiest cities&rdquo;"
+            person = '<a href="https://www.cnet.com/videos/sicilys-smart-cities-show-its-getting-easier-to-get-smart/" target="_blank">Sicily s smart cities show it s getting easier to get smart</a> <span class="subtext">CNET.com</span>'
+            #img = "person1.jpg"
+            #alt = "Person1"
+
     [[params.testimonials.item]]
-          quote = "&ldquo;Parliamo anche di visione artificiale e dell'applicazione di una giovane start up, spin off dell'Università di Messina per contare le persone o rilevare comportamenti anomali in ambienti pubblici come spiega a 2024 Angelo Zaia, amministratore di SmartME.IO.&rdquo;"
+          quote = "&ldquo;we also talk about artificial vision and the application of a young start-up, spin off of the University of Messina to count people or detect abnormal behavior in public environments as explained to 2024 Angelo Zaia, administrator of SmartME.IO&rdquo;"
           person = '<a href="http://www.radio24.ilsole24ore.com/programma/2024/allevamenti-smart-visione-artificiale-120729-gSLAYXRlTC?refresh_ce=1" target="_blank">Allevamenti smart, visione artificiale e il PC industriale di Texa</a> <span class="subtext">RADIO24.ilsole24ore.com</span>'
           #img = "person3.jpg"
           #alt = "Person3"
@@ -208,77 +208,81 @@ googleAnalytics = "UA-98639930-1"
 
   # About section
   [params.about]
-    enable = false
+    enable = true
     title = "About"
-    description = 'Far far away, in the middle of the Mediterranean Sea, between <a href="https://en.wikipedia.org/wiki/Scylla" target="_blank">Scylla</a> and <a href="https://en.wikipedia.org/wiki/Charybdis" target="_blank">Charybdis</a>, far from the Silicon Valley and Boston, far from London and Berlin, far from New York and Los Angeles, far from Tel Aviv and Singapore, far from Shanghai and Tokio... there lives the team.'
+    description = 'Far far away, in the middle of the Mediterranean Sea, between <a href="https://en.wikipedia.org/wiki/Scylla" target="_blank">Scylla</a> and <a href="https://en.wikipedia.org/wiki/Charybdis" target="_blank">Charybdis</a>, far from the Silicon Valley and Boston, far from London and Berlin, far from New York and Los Angeles, far from Tel Aviv and Singapore, far from Shanghai and Tokio... there lives the team.<br>
+<br>Founded within the Department of Engineering of the University of Messina and kickstarted by a crowdfunding campaign, SmartMe.IO is a concrete example of how the world of research can breed an innovative business company. A creative, passionate and skilled workplace, where knowledge is the tool to take unexpected steps:
+a place where it is possible to "Reinvent the wheel”.
+<br>SmartMe.IO designs and implements products combining open source and low-cost IoT technologies with OpenStack-based Cloud technologies.
+  <br>SmartMe.IO provides best-in-class solutions for Metering, Devices and Fleet Management, Monitoring, Crowdsensing and other aspects related to Smart Environments, and addresses the requirements of municipalities, utilities, companies operating in challenging environments, such as airports and stations, interested in identification facilities, traceability, safety and video surveillance.'
 
-    [[params.about.item]]
-      name = "Antonio Puliafito"
-      position = "R&D, Dissemination"
-      description = "Full professor at the University of Messina, Italy. Shaping the future for a better world of connected people and smart objects."
-      img = "photo_puliafito.jpg"
-      alt = "Antonio"
+    # [[params.about.item]]
+    #   name = "Antonio Puliafito"
+    #   position = "R&D, Dissemination"
+    #   description = "Full professor at the University of Messina, Italy. Shaping the future for a better world of connected people and smart objects."
+    #   img = "photo_puliafito.jpg"
+    #   alt = "Antonio"
 #       social = [
 #         ["icon-twitter", "#"],
 #         ["icon-facebook", "#"],
 #         ["icon-linkedin", "#"]
 #       ]
 
-    [[params.about.item]]
-      name = "Dario Bruneo"
-      position = "R&D"
-      description = "Embedded system enthusiast, he likes to understand every single bit to put intelligence into everyday life objects."
-      img = "photo_bruneo.jpg"
-      alt = "Dario"
+    # [[params.about.item]]
+    #   name = "Dario Bruneo"
+    #   position = "R&D"
+    #   description = "Embedded system enthusiast, he likes to understand every single bit to put intelligence into everyday life objects."
+    #   img = "photo_bruneo.jpg"
+    #   alt = "Dario"
 #       social = [
 #         ["icon-twitter", "#"],
 #         ["icon-facebook", "#"],
 #         ["icon-github", "#"]
 #       ]
 
-    [[params.about.item]]
-      name = "Francesco Longo"
-      position = "R&D, SW Architect"
-      description = "Sci-fi and fantasy fan, his dream is to use a bunch of technologies and some good ideas to let anything around us work like magic."
-      img = "photo_longo.jpg"
-      alt = "Francesco"
+    # [[params.about.item]]
+    #   name = "Francesco Longo"
+    #   position = "R&D, SW Architect"
+    #   description = "Sci-fi and fantasy fan, his dream is to use a bunch of technologies and some good ideas to let anything around us work like magic."
+    #   img = "photo_longo.jpg"
+    #   alt = "Francesco"
 #       social = [
 #         ["icon-twitter", "#"],
 #         ["icon-facebook", "#"],
 #         ["icon-dribbble", "#"]
 #       ]
 
-      [[params.about.item]]
-        name = "Giovanni Merlino"
-        position = "R&D, SW Architect"
-        description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him believe he is in control."
-        img = "photo_merlino.jpg"
-        alt = "Giovanni"
+      # [[params.about.item]]
+      #   name = "Giovanni Merlino"
+      #   position = "R&D, SW Architect"
+      #   description = "Tinkerer, all-round curious dude: interested in Cloud, IoT, AI and all things automation, because it makes him believe he is in control."
+      #   img = "photo_merlino.jpg"
+      #   alt = "Giovanni"
 #         social = [
 #           ["icon-twitter", "#"],
 #           ["icon-facebook", "#"],
 #           ["icon-dribbble", "#"]
 #         ]
 
-        [[params.about.item]]
-          name = "Salvatore Distefano"
-          position = "R&D"
-          description = "He likes to do crazy things randomly mixing imagination, technologies, and a bit of science: let's hope it does not explode!"
-          img = "photo_distefano.jpg"
-          alt = "Salvatore"
+        # [[params.about.item]]
+        #   name = "Salvatore Distefano"
+        #   position = "R&D"
+        #   description = "He likes to do crazy things randomly mixing imagination, technologies, and a bit of science: let's hope it does not explode!"
+        #   img = "photo_distefano.jpg"
+        #   alt = "Salvatore"
 #           social = [
 #             ["icon-twitter", "#"],
 #             ["icon-facebook", "#"],
 #             ["icon-dribbble", "#"]
 #           ]
 
-          [[params.about.item]]
-            name = "Angelo Zaia"
-            position = "R&D, Business Developer"
-            description = "Curious, Maker and Engineer. He is interested on how IoT and Cloud technologies can improve our life on uninvestigated aspects."
-            img = "photo_zaia.jpg"
-            alt = "Angelo"
-#             social = [
+#           [[params.about.item]]
+#             name = "Angelo Zaia"
+#             position = "R&D, Business Developer"
+#             description = "Curious, Maker and Engineer. He is interested on how IoT and Cloud technologies can improve our life on uninvestigated aspects."
+#             img = "photo_zaia.jpg"
+#             alt = "Angelo"
+# #             social = [
 #               ["icon-twitter", "#"],
 #               ["icon-facebook", "#"],
 #               ["icon-dribbble", "#"]
